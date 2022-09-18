@@ -9,13 +9,13 @@ public class arithmetic {
        
 Scanner scan = new Scanner(System.in);
 
-System.out.print("NUM1 :");
+System.out.print("NUM1 : ");
 num1= scan.nextInt();
 
-System.out.print("NUM2 :");
+System.out.print("NUM2 : ");
 num2 = scan.nextInt();
 
-
+System.out.print("RESULT : ");
 System.out.println(num1 + num2);
 
 
