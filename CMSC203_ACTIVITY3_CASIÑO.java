@@ -17,10 +17,10 @@ public class grab {
 
             if ( 1<= testCases && testCases <= 10 ) {
                 String inputs [] = new  String[testCases];
-                  for (int i = 0; i < testCases; i++){
+                  for (int t = 0; t < testCases; t++){
                     scanner = new Scanner (System.in);
                     
-                    inputs[i] = scanner.nextLine();
+                    inputs[t] = scanner.nextLine();
                   }
                     System.out.println();
                     System.out.println();
